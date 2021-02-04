@@ -15,6 +15,11 @@ struct CheckoutView: View {
     @State private var tipAmount = 1
     static let paymentTypes = ["Cash", "Credit Card", "iDine Points"]
     static let tipAmounts = [10, 15, 20, 25, 0]
+    var totalPrice: Double {
+        let total = Double(order.total)
+        let tipValue = total / 100 * Double(Self.tipAmounts[tipAmount])
+        return total + tipValue
+    }
     
     var body: some View {
         Form {
@@ -39,7 +44,7 @@ struct CheckoutView: View {
                 }
                 .pickerStyle(SegmentedPickerStyle())
             }
-            Section(header: Text("TOTAL: $100 ")) {
+            Section(header: Text("TOTAL: $\(totalPrice, specifier: "%.2f")")) {
                 Button("Confirm order") {
                     // place the order
                 }
