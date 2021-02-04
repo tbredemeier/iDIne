@@ -19,6 +19,7 @@
 		A2F1A1DD25C9E9E40040213B /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F1A1DC25C9E9E40040213B /* ItemDetail.swift */; };
 		A2F1A1E325CB8EE90040213B /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F1A1E225CB8EE90040213B /* OrderView.swift */; };
 		A2F1A1EC25CB9AAF0040213B /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F1A1EB25CB9AAF0040213B /* AppView.swift */; };
+		A2F1A1F225CC63980040213B /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F1A1F125CC63980040213B /* CheckoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		A2F1A1DC25C9E9E40040213B /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
 		A2F1A1E225CB8EE90040213B /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		A2F1A1EB25CB9AAF0040213B /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		A2F1A1F125CC63980040213B /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				A2F1A1DC25C9E9E40040213B /* ItemDetail.swift */,
 				A2F1A1E225CB8EE90040213B /* OrderView.swift */,
 				A2F1A1EB25CB9AAF0040213B /* AppView.swift */,
+				A2F1A1F125CC63980040213B /* CheckoutView.swift */,
 				A2F1A1D625C9C4960040213B /* menu.json */,
 				A2F1A1C025C9C3910040213B /* Assets.xcassets */,
 				A2F1A1C525C9C3910040213B /* Info.plist */,
@@ -165,6 +168,7 @@
 			files = (
 				A2F1A1DD25C9E9E40040213B /* ItemDetail.swift in Sources */,
 				A2F1A1E325CB8EE90040213B /* OrderView.swift in Sources */,
+				A2F1A1F225CC63980040213B /* CheckoutView.swift in Sources */,
 				A2F1A1EC25CB9AAF0040213B /* AppView.swift in Sources */,
 				A2F1A1BF25C9C3900040213B /* ContentView.swift in Sources */,
 				A2F1A1BD25C9C3900040213B /* iDIneApp.swift in Sources */,
