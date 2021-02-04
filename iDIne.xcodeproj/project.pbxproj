@@ -17,6 +17,7 @@
 		A2F1A1D725C9C4960040213B /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = A2F1A1D625C9C4960040213B /* menu.json */; };
 		A2F1A1DA25C9C8130040213B /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F1A1D925C9C8130040213B /* ItemRow.swift */; };
 		A2F1A1DD25C9E9E40040213B /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F1A1DC25C9E9E40040213B /* ItemDetail.swift */; };
+		A2F1A1E325CB8EE90040213B /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F1A1E225CB8EE90040213B /* OrderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		A2F1A1D625C9C4960040213B /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = menu.json; path = "idine 2/menu.json"; sourceTree = SOURCE_ROOT; };
 		A2F1A1D925C9C8130040213B /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 		A2F1A1DC25C9E9E40040213B /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
+		A2F1A1E225CB8EE90040213B /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				A2F1A1BE25C9C3900040213B /* ContentView.swift */,
 				A2F1A1D925C9C8130040213B /* ItemRow.swift */,
 				A2F1A1DC25C9E9E40040213B /* ItemDetail.swift */,
+				A2F1A1E225CB8EE90040213B /* OrderView.swift */,
 				A2F1A1D625C9C4960040213B /* menu.json */,
 				A2F1A1C025C9C3910040213B /* Assets.xcassets */,
 				A2F1A1C525C9C3910040213B /* Info.plist */,
@@ -158,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2F1A1DD25C9E9E40040213B /* ItemDetail.swift in Sources */,
+				A2F1A1E325CB8EE90040213B /* OrderView.swift in Sources */,
 				A2F1A1BF25C9C3900040213B /* ContentView.swift in Sources */,
 				A2F1A1BD25C9C3900040213B /* iDIneApp.swift in Sources */,
 				A2F1A1D425C9C4870040213B /* Order.swift in Sources */,
